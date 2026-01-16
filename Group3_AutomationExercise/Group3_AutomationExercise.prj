@@ -6,11 +6,12 @@
    <UUID>68b97380-eaab-4672-aca1-dab9f3f887cf</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.4.3</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>10.4.3</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Volumes/TakiyaDrive/Study/Auto/Testing/Group3_AutomationExercise/Group3_AutomationExercise/Group3_AutomationExercise.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
