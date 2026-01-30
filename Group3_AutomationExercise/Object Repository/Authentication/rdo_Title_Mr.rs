@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>rdo_Title_Mr</name>
+   <tag></tag>
+   <elementGuidId>5c223de1-2e05-43cb-9276-7ea576640bd3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label.top</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='form']/div/div/div/div/form/div/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>bb7e8bda-3bbc-4bd0-a8b8-a3825dcba781</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>id_gender1</value>
+      <webElementGuid>6bd815b0-1fe9-422b-8a37-632f98f472e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>top</value>
+      <webElementGuid>66dbd192-55c5-4f9a-949c-3cebab491906</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+										
+										Mr.
+									</value>
+      <webElementGuid>8f015b58-ff8a-47e4-a3f7-73ab68471d5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 col-sm-offset-1&quot;]/div[@class=&quot;login-form&quot;]/form[1]/div[@class=&quot;clearfix&quot;]/div[@class=&quot;radio-inline&quot;]/label[@class=&quot;top&quot;]</value>
+      <webElementGuid>15f94dc1-34d3-4176-bec1-dd26749bdfb9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='form']/div/div/div/div/form/div/div/label</value>
+      <webElementGuid>948f9241-745b-4fc9-a727-1dd3fa00b9d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::label[1]</value>
+      <webElementGuid>ae46427d-40b6-41cf-99aa-9dc17969d945</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter Account Information'])[1]/following::label[2]</value>
+      <webElementGuid>b55f31df-482c-4efb-891a-496d1273c95b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mr.']/parent::*</value>
+      <webElementGuid>a972562f-3d6b-4196-8855-c479a30202fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/label</value>
+      <webElementGuid>48fa8519-d642-481a-91f0-acccd5e57ed7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = '
+										
+										Mr.
+									' or . = '
+										
+										Mr.
+									')]</value>
+      <webElementGuid>7f81bf32-d501-42a0-9ac0-073464720510</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

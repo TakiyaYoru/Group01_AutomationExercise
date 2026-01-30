@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Login_With_Empty_Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c72014e0-6943-44a3-8c5d-98105da21f7b</testCaseGuid>
+</TestCaseEntity>

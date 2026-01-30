@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Verify_Login_State_After_Signup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e96e24ee-f62b-4f3f-a4e9-101f68270eac</testCaseGuid>
+</TestCaseEntity>

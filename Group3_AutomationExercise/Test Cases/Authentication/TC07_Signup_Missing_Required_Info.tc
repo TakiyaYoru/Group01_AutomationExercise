@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Signup_Missing_Required_Info</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e40017b5-f5a5-4fb1-b7c1-461ea2cd3327</testCaseGuid>
+</TestCaseEntity>

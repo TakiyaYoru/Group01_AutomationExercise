@@ -1,0 +1,16 @@
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.baseUrl + '/login')
+
+WebUI.setText(findTestObject('Authentication/txt_Login_Email'), GlobalVariable.invalidEmail)
+WebUI.setText(findTestObject('Authentication/txt_Login_Password'), GlobalVariable.invalidPassword)
+
+WebUI.click(findTestObject('Authentication/btn_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Authentication/lbl_Login_Error'), 10)
+
+WebUI.closeBrowser()
