@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Search_Product_Faild</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ab58c7c9-2839-4c26-a0d2-d3da3ddb6f99</testCaseGuid>
+</TestCaseEntity>
