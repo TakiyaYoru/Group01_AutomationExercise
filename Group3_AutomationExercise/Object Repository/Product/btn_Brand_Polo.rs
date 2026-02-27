@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Brand_Polo</name>
+   <tag></tag>
+   <elementGuidId>c9c65f69-01fe-4f54-bd22-6334566136d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.nav-pills.nav-stacked > li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Brands'])[1]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0e46f8a8-39cd-4a15-b6ab-f4f5a5b44da5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/brand_products/Polo</value>
+      <webElementGuid>cc5eb367-69cd-4996-a87f-37d7001f8526</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> (6)Polo</value>
+      <webElementGuid>7e8104e9-74c6-4873-af85-1548b8083147</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3&quot;]/div[@class=&quot;left-sidebar&quot;]/div[@class=&quot;brands_products&quot;]/div[@class=&quot;brands-name&quot;]/ul[@class=&quot;nav nav-pills nav-stacked&quot;]/li[1]/a[1]</value>
+      <webElementGuid>5264d989-b553-45a3-a53c-49e2325f3398</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Brands'])[1]/following::a[1]</value>
+      <webElementGuid>0a36b3c4-a06a-497f-bbb2-14c66b87a8f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tops &amp; Shirts'])[1]/following::a[1]</value>
+      <webElementGuid>ec93064f-2cd7-450c-8bb0-a3be70a07510</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Polo']/parent::*</value>
+      <webElementGuid>9e3bd32b-a940-4cf8-8e50-6edf8438637b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/brand_products/Polo')]</value>
+      <webElementGuid>a6e9482a-69cd-4ab3-a035-b9672a13bf24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/ul/li/a</value>
+      <webElementGuid>34b34ad3-c6b8-47bf-8320-5a14bdfcf706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/brand_products/Polo' and (text() = ' (6)Polo' or . = ' (6)Polo')]</value>
+      <webElementGuid>9f6e2b8a-66d1-4c27-9556-aeb8a4a7839f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
