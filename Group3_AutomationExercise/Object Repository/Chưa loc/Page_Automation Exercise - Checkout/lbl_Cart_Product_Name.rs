@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Cart_Product_Name</name>
+   <tag></tag>
+   <elementGuidId>412a6997-87db-42cf-ab3b-567579e9dfc5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[@id='product-2']/td[2]/h4/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>29d186ed-abf6-4346-96e9-078bf3111098</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/product_details/2</value>
+      <webElementGuid>0a750aaa-f818-46ed-930f-3c21c713254d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Men Tshirt</value>
+      <webElementGuid>a35b99d4-d9c2-434f-a180-291d76dc1517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-2&quot;)/td[@class=&quot;cart_description&quot;]/h4[1]/a[1]</value>
+      <webElementGuid>85d086ac-4778-4c58-b3de-a78806980143</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='product-2']/td[2]/h4/a</value>
+      <webElementGuid>046eac33-d65c-4b6a-8be8-dd60199f70c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Men Tshirt')]</value>
+      <webElementGuid>cb2a93d5-80c5-4067-ae62-5d805af498f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::a[2]</value>
+      <webElementGuid>7c27ff5f-9b5a-4f75-a62d-da0f004e7b9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/following::a[2]</value>
+      <webElementGuid>7cd3cd84-0192-4db0-99bd-3269e10b7209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart is empty!'])[1]/preceding::a[2]</value>
+      <webElementGuid>6ae2f3ae-a25e-46bc-86f8-f61ec928562e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='here'])[1]/preceding::a[2]</value>
+      <webElementGuid>37f415bb-04a4-4452-b1a7-68d6c76b0520</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Men Tshirt']/parent::*</value>
+      <webElementGuid>df72604d-c10d-45d9-8c09-7b6760f18d21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/product_details/2')]</value>
+      <webElementGuid>fb2cce5e-68b8-4144-9d13-5a4740ebc849</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4/a</value>
+      <webElementGuid>4d9d4fce-abfc-4729-b039-428a3a323267</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/product_details/2' and (text() = 'Men Tshirt' or . = 'Men Tshirt')]</value>
+      <webElementGuid>0fd854f3-4246-40e5-9913-1f46116289a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
