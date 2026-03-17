@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_Verify_Product_Quantity_In_Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd0ab019-7758-44db-b3ae-a48bbdfc3a53</testCaseGuid>
+</TestCaseEntity>
