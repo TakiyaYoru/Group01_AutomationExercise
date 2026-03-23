@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC22_Verify_Cart_Persistence_After_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3872a6c5-5d1b-4f8f-bef5-615082c9ec00</testCaseGuid>
+</TestCaseEntity>
