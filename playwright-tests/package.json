@@ -1,0 +1,20 @@
+{
+  "name": "automationexercise-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright E2E tests for Automation Exercise",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:auth": "playwright test tests/auth.spec.ts",
+    "test:products": "playwright test tests/products.spec.ts",
+    "test:cart": "playwright test tests/cart.spec.ts",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "typescript": "^5.9.2"
+  }
+}
