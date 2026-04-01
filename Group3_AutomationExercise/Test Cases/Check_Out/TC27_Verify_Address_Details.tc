@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27_Verify_Address_Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa89d8d1-0fb4-4742-af7c-db34a8dadfcb</testCaseGuid>
+</TestCaseEntity>
