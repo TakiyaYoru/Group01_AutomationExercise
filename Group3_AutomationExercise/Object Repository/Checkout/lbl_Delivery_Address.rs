@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Delivery_Address</name>
+   <tag></tag>
+   <elementGuidId>fc9e2623-cb57-4bc9-9c3d-8bbc0d782ef0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='address_delivery']/li/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.page-subheading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>213cf58b-46e7-4c2a-be8f-34193a50e194</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>page-subheading</value>
+      <webElementGuid>f9a61e67-533c-41b6-b501-4983f2cd20d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your delivery address</value>
+      <webElementGuid>a55aa112-3f88-4537-bc7c-491304186846</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address_delivery&quot;)/li[@class=&quot;address_title&quot;]/h3[@class=&quot;page-subheading&quot;]</value>
+      <webElementGuid>556695a2-9198-47c2-a880-0d5eaa7709db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='address_delivery']/li/h3</value>
+      <webElementGuid>c9b54714-1291-461a-a5b1-96b66f09d3b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Details'])[1]/following::h3[1]</value>
+      <webElementGuid>41897f85-8ecb-4c35-92a2-31515a2f9188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::h3[1]</value>
+      <webElementGuid>4207e257-72ec-42db-a355-074911318a65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='. Manh Duc'])[1]/preceding::h3[1]</value>
+      <webElementGuid>d95d5fe5-acec-479c-a64c-7bea9dc8d0ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UMT'])[1]/preceding::h3[1]</value>
+      <webElementGuid>dc234a86-a279-417c-aa51-e440c4088001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your delivery address']/parent::*</value>
+      <webElementGuid>85dd8eca-e40d-4a73-8bb4-78b0c23a8407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>f13e5c9b-10af-40cb-b7e1-bbd01e634dcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Your delivery address' or . = 'Your delivery address')]</value>
+      <webElementGuid>7232cd28-c970-489d-b4bf-87c9cf09dc4b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

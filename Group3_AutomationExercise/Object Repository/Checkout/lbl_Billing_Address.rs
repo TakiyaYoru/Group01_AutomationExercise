@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Billing_Address</name>
+   <tag></tag>
+   <elementGuidId>3c45bb32-6326-4fd0-8f70-f677d105d3fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='address_invoice']/li/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#address_invoice > li.address_title > h3.page-subheading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>87446c96-01f7-4de0-bb66-dd1125d3254f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>page-subheading</value>
+      <webElementGuid>7d57dab3-c941-4e27-8c29-c48b90e265ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your billing address</value>
+      <webElementGuid>3a69cdd4-0d2a-4ec4-b0ee-0a6bdd7c11a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address_invoice&quot;)/li[@class=&quot;address_title&quot;]/h3[@class=&quot;page-subheading&quot;]</value>
+      <webElementGuid>43f92c2f-264c-4f34-b804-dadad6207053</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='address_invoice']/li/h3</value>
+      <webElementGuid>d2aa99ab-6fcf-4226-b7f0-cdfee23c16b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='India'])[1]/following::h3[1]</value>
+      <webElementGuid>87a9b4cd-5925-4ef0-9ce4-d13f59b2727f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='. Manh Duc'])[2]/preceding::h3[1]</value>
+      <webElementGuid>3ac0eeaa-0849-4f89-82ed-b5e75d320960</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UMT'])[2]/preceding::h3[1]</value>
+      <webElementGuid>ed673e03-ee98-403c-965c-eec8c7cbba57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Your billing address']/parent::*</value>
+      <webElementGuid>f4664e0b-2146-42c7-bf5e-e5b4d47d137f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/h3</value>
+      <webElementGuid>fd10be8d-bcc7-4fed-a15f-3cc36e1e25bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Your billing address' or . = 'Your billing address')]</value>
+      <webElementGuid>9af6b01d-9d0c-411e-8dbc-3a92dd2983d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
