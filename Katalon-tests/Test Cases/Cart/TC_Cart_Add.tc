@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cart add product cluster data-driven</description>
+   <name>TC_Cart_Add</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18a7588d-9f52-4cd1-bf95-8c93a85e64f1</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>be8121b1-b0f0-4279-bf6f-ae6582192a1a</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>d4d8e893-437e-4267-8f5f-26f9ca3768a7</id><masked>false</masked><name>source</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>af3024f1-a0e6-4973-a4bf-594f7338b16a</id><masked>false</masked><name>brand</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>42dbf62c-7dce-4f4f-bbf4-34d066d0f689</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Product search data-driven</description>
+   <name>TC_Product_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e7ae28f-a336-4141-a26f-f8de1fab5eca</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>5d72c58f-6f73-44ef-9f16-f831f4ed898f</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>4ea0ec38-b688-4ee7-8ecc-1124f5e59c7b</id><masked>false</masked><name>keyword</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>6c67f572-19d3-404d-bff6-572dac620e2f</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

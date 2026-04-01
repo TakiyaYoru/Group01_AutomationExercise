@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout download invoice after successful order</description>
+   <name>TC_Checkout_Invoice</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1af7f785-d663-4d80-96d1-e4d4dc4ceec1</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>045f0268-1a7d-4b5e-9804-bb59cb5f7f5e</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>f7f67230-7cf2-4563-a3de-8f57ff4c26ca</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

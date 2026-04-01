@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='address_invoice']/li/h3</value>
+         <value>//ul[@id='address_invoice'] | //*[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'billing address')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#address_invoice > li.address_title > h3.page-subheading</value>
+         <value>#address_invoice</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

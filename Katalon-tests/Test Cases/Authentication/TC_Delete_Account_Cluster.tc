@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Authentication delete account</description>
+   <name>TC_Delete_Account_Cluster</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9f278ca6-4352-4f56-b936-b1dcab34be2d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout payment validation (success/invalid)</description>
+   <name>TC_Checkout_Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2758ce88-38f9-46d7-bce4-6e8f85a2a665</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>e22f3919-ab1e-4cff-af55-cf4bcdeeaf93</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>9479f7e9-34cf-40f1-844d-8ef51d3d267a</id><masked>false</masked><name>cardNumber</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>2b5d8548-18c8-421c-9cd7-59f2ca60e5b8</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

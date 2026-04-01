@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cart quantity cluster data-driven</description>
+   <name>TC_Cart_Quantity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7404888d-2f41-42b8-a09c-f0067bcb13ee</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>7019b5fc-83dc-4f69-b2e7-1aa920637f23</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>ec5f8f67-a8ec-4931-af36-f9e19d2f1450</id><masked>false</masked><name>quantity</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>bf5d0f8a-7c36-4a91-b4b7-10a2d6fd122c</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

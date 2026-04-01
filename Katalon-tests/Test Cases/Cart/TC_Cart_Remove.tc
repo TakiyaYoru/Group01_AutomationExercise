@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cart remove cluster data-driven</description>
+   <name>TC_Cart_Remove</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>372329d2-d48f-43a3-bc96-f0ec947b0c2f</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>a633ceb6-b453-45f8-9ce7-5a307d4ceb80</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>23fd380a-1fb5-4f6a-a385-a87d33192e8f</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

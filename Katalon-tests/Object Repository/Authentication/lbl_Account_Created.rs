@@ -7,62 +7,30 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#optin</value>
+         <value>h2.title.text-center b</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='optin']</value>
+         <value>//h2[contains(@class,'title')]//b[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'account created')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>b0c75932-4c16-4ea9-ad66-1d9bde17a9af</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>checkbox</value>
+      <value>b</value>
       <webElementGuid>5ac86982-6a96-434e-a377-69cb61b897c5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>optin</value>
-      <webElementGuid>c15526b0-549a-40d2-8f9c-8405c1b09334</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>optin</value>
-      <webElementGuid>a4ca647a-df73-4153-b58f-5ae2cf3f3e5d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>19ac92eb-535f-46e7-a569-cab44068ed3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;optin&quot;)</value>
+      <value>//h2[contains(@class,'title')]//b[contains(.,'Account Created')]</value>
       <webElementGuid>e035fe3d-bb8f-48ff-af6f-7cee85e638f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li:nth-of-type(10) > a</value>
+         <value>a[href='/delete_account']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div/div/div/div[2]/div/ul/li[10]/a</value>
+         <value>//a[contains(normalize-space(.),'Logged in as') or contains(@href,'/delete_account')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

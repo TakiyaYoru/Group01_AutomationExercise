@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout end-to-end flow (login, cart, place order, payment)</description>
+   <name>TC_Checkout_Flow</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f992857-36dc-429e-8d7f-a9158a9d87cf</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>ea4139d0-c7c5-4f67-a836-2738f03f16f5</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>1ce2a090-21f0-4f2b-983b-c5f730f534c0</id><masked>false</masked><name>email</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>fbe266b0-e0f2-4429-a319-98edf57fea46</id><masked>false</masked><name>password</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>593261b1-9d4f-49fa-9cf0-4be5df86b5a1</id><masked>false</masked><name>cardName</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>de5776b8-e783-43d9-a37b-e3b82c5fbb7d</id><masked>false</masked><name>cardNumber</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>17ad0f96-b5f5-4f2c-9980-57790d7ff15d</id><masked>false</masked><name>cardCvc</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>c3587b1b-53cf-4f6d-96dd-d61442495528</id><masked>false</masked><name>expMonth</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>0562a6b8-6ea1-434f-95db-3ce6f9cd4caf</id><masked>false</masked><name>expYear</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>8272f6f3-8d7b-4ca0-8bd8-5fdf5f2ad3ad</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>b</value>
+         <value>h2.title.text-center b</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='form']/div/div/div/h2/b</value>
+         <value>//h2[contains(@class,'title')]//b[contains(translate(normalize-space(.),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'account deleted')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

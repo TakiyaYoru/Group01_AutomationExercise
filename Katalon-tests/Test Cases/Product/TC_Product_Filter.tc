@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Product category/brand filter data-driven</description>
+   <name>TC_Product_Filter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cec7e29d-07d0-4d59-86bf-2b3b9db88f55</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>c86480b8-f673-4cf0-b6f4-c5ec527918c9</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>b7f48ef7-c7ea-476b-8718-7fba2bdb40ad</id><masked>false</masked><name>filterType</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>5aab8f2a-98f6-4f24-ae1d-4ccb0f8a6d46</id><masked>false</masked><name>parent</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>4ca7f7fd-fec0-4553-b0d6-58b9482d1aad</id><masked>false</masked><name>child</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>671226a5-b35c-41b1-bce2-41165f5f7234</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

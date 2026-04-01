@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cart persistence after login cluster data-driven</description>
+   <name>TC_Cart_Persistence</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>570ab2e9-35a8-4891-9fc6-b5fd2a659f49</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>2b935ee7-52dd-4068-951c-0dd6e3ea6737</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>6a6ebf31-f0d6-4356-8348-fd4a404868c1</id><masked>false</masked><name>email</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>25e9c740-fba6-4b9e-b388-238056f784ba</id><masked>false</masked><name>password</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>dd75f85f-95bf-4b8d-adf1-f0868fef32c8</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

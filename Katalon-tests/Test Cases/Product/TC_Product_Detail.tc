@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Product detail verification</description>
+   <name>TC_Product_Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05f37393-3f8e-4360-aa59-c6cac6b8dd5b</testCaseGuid>
+</TestCaseEntity>

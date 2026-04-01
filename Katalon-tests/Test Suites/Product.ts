@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description></description>
+   <description>Product cluster: Search (DD), Filter (DD), Detail</description>
    <name>Product</name>
    <tag></tag>
    <isRerun>false</isRerun>
@@ -11,4 +11,91 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>fc235f8c-8c2c-4021-82cc-0ca88043498f</testSuiteGuid>
+   <testCaseLink>
+      <guid>e2ab7771-bf57-4d54-a2f4-6764d39b3f4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product/TC_Product_Search</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f7e6d126-988d-43e3-9be7-730f8468dbf8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Product/search-data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f7e6d126-988d-43e3-9be7-730f8468dbf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>5d72c58f-6f73-44ef-9f16-f831f4ed898f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f7e6d126-988d-43e3-9be7-730f8468dbf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>keyword</value>
+         <variableId>4ea0ec38-b688-4ee7-8ecc-1124f5e59c7b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f7e6d126-988d-43e3-9be7-730f8468dbf8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>6c67f572-19d3-404d-bff6-572dac620e2f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49248d6f-341b-40ea-b914-638121f9ebf6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product/TC_Product_Filter</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f8911dee-2710-4d69-bfbf-fdb2ce42f5e7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Product/filter-data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f8911dee-2710-4d69-bfbf-fdb2ce42f5e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>scenario</value>
+         <variableId>c86480b8-f673-4cf0-b6f4-c5ec527918c9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f8911dee-2710-4d69-bfbf-fdb2ce42f5e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>filterType</value>
+         <variableId>b7f48ef7-c7ea-476b-8718-7fba2bdb40ad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f8911dee-2710-4d69-bfbf-fdb2ce42f5e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>parent</value>
+         <variableId>5aab8f2a-98f6-4f24-ae1d-4ccb0f8a6d46</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f8911dee-2710-4d69-bfbf-fdb2ce42f5e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>child</value>
+         <variableId>4ca7f7fd-fec0-4553-b0d6-58b9482d1aad</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f8911dee-2710-4d69-bfbf-fdb2ce42f5e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>671226a5-b35c-41b1-bce2-41165f5f7234</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b515d2eb-86b2-4f89-bb32-4f7598cb0f5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Product/TC_Product_Detail</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Authentication login data-driven</description>
+   <name>TC_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a29f641-bf87-4f4f-9db4-7c84e4bf0033</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>5ee8f6a5-f8c4-4e4f-8fe9-fb3ef1f696a9</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>8f73dfc4-e1f6-430c-a4f5-362f9f8e98d0</id><masked>false</masked><name>email</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>c738c65f-0e4f-4de8-a0af-c2f7921b77f9</id><masked>false</masked><name>password</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>45dd6a63-0786-4d64-b8ba-836193a9fbf0</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

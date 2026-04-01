@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#newsletter</value>
+         <value>button[data-qa='create-account']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='newsletter']</value>
+         <value>//button[@data-qa='create-account']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,9 +28,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>tag</name>
       <type>Main</type>
-      <value>checkbox</value>
+      <value>button</value>
       <webElementGuid>ad900106-5606-4160-aed0-d591a0852f0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>

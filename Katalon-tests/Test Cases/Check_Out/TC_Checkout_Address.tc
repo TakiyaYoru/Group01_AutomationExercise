@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checkout verify delivery and billing address section</description>
+   <name>TC_Checkout_Address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d00d4a9-67a4-4a74-bf59-fdeac2edecab</testCaseGuid>
+   <variable><defaultValue>''</defaultValue><description></description><id>524fd043-0a99-4f4f-83e8-bf928017a5e0</id><masked>false</masked><name>scenario</name></variable>
+   <variable><defaultValue>''</defaultValue><description></description><id>8cee1bc3-f3cb-4f01-a56b-4ef0b16f6d36</id><masked>false</masked><name>expected</name></variable>
+</TestCaseEntity>

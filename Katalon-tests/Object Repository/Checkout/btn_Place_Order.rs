@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='cart_items']/div/div[7]/a</value>
+         <value>//a[contains(@href,'/payment') and contains(normalize-space(.),'Place Order')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.btn.btn-default.check_out</value>
+         <value>a[href='/payment']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

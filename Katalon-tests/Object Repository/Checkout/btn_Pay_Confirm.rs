@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='payment-form']/div[5]/div</value>
+         <value>//button[@id='submit' or @data-qa='pay-button' or contains(normalize-space(.),'Pay and Confirm Order')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>#submit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
       <webElementGuid>c3186a35-1d5d-4a79-9070-812ef1179577</webElementGuid>
    </webElementProperties>
    <webElementProperties>

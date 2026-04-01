@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span > span</value>
+         <value>div.product-information span span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Blue Top'])[1]/following::span[2]</value>
+         <value>//div[contains(@class,'product-information')]//span/span[contains(normalize-space(.),'Rs.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
