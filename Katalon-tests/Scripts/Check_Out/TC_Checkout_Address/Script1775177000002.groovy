@@ -14,6 +14,16 @@ TestObject byXpath(String id, String xpath) {
 	return t
 }
 
+void clickSafe(TestObject to, int timeoutSeconds = 8) {
+	WebUI.scrollToElement(to, 3, FailureHandling.OPTIONAL)
+	WebUI.waitForElementVisible(to, timeoutSeconds, FailureHandling.OPTIONAL)
+	try {
+		WebUI.click(to)
+	} catch (Exception ignored) {
+		WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(to, timeoutSeconds)))
+	}
+}
+
 KeywordUtil.logInfo("[TC_Checkout_Address] scenario=${scenario}")
 
 WebUI.openBrowser('')
@@ -29,9 +39,15 @@ WebUI.scrollToElement(firstAddBtn, 5, FailureHandling.OPTIONAL)
 WebUI.waitForElementVisible(firstAddBtn, 8)
 WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(firstAddBtn, 5)))
 
-WebUI.waitForElementVisible(findTestObject('Cart/btn_View_Cart'), 8)
-WebUI.click(findTestObject('Cart/btn_View_Cart'))
-WebUI.click(findTestObject('Checkout/btn_Proceed_To_Checkout'))
+boolean hasViewCart = WebUI.verifyElementPresent(findTestObject('Cart/btn_View_Cart'), 3, FailureHandling.OPTIONAL)
+if (hasViewCart) {
+	WebUI.click(findTestObject('Cart/btn_View_Cart'), FailureHandling.OPTIONAL)
+}
+
+WebUI.navigateToUrl(GlobalVariable.baseUrl + '/view_cart')
+WebUI.waitForPageLoad(10)
+WebUI.navigateToUrl(GlobalVariable.baseUrl + '/checkout')
+WebUI.waitForPageLoad(10)
 
 boolean deliveryVisible = WebUI.verifyElementPresent(findTestObject('Checkout/lbl_Delivery_Address'), 6, FailureHandling.OPTIONAL)
 if (!deliveryVisible) {

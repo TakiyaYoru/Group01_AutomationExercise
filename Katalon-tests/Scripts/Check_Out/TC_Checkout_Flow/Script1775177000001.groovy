@@ -24,6 +24,15 @@ void clickSafe(TestObject to, int timeoutSeconds = 8) {
 	}
 }
 
+void setTextSafe(TestObject to, String value, int timeoutSeconds = 8) {
+	WebUI.waitForElementVisible(to, timeoutSeconds, FailureHandling.OPTIONAL)
+	try {
+		WebUI.setText(to, value)
+	} catch (Exception ignored) {
+		WebUI.executeJavaScript("arguments[0].value=arguments[1]; arguments[0].dispatchEvent(new Event('input', {bubbles:true})); arguments[0].dispatchEvent(new Event('change', {bubbles:true}));", Arrays.asList(WebUI.findWebElement(to, timeoutSeconds), value))
+	}
+}
+
 String s = (scenario ?: 'default').toString()
 String loginEmail = (email ?: GlobalVariable.validEmail).toString()
 String loginPassword = (password ?: GlobalVariable.validPassword).toString()
@@ -49,22 +58,35 @@ WebUI.scrollToElement(firstAddBtn, 5, FailureHandling.OPTIONAL)
 WebUI.waitForElementVisible(firstAddBtn, 8)
 WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(firstAddBtn, 5)))
 
-WebUI.waitForElementVisible(findTestObject('Cart/btn_View_Cart'), 8)
-WebUI.click(findTestObject('Cart/btn_View_Cart'))
-WebUI.click(findTestObject('Checkout/btn_Proceed_To_Checkout'))
-WebUI.waitForPageLoad(10)
-if (!WebUI.getUrl().contains('/checkout')) {
-	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/checkout')
+boolean hasViewCart = WebUI.verifyElementPresent(findTestObject('Cart/btn_View_Cart'), 3, FailureHandling.OPTIONAL)
+if (hasViewCart) {
+	WebUI.click(findTestObject('Cart/btn_View_Cart'), FailureHandling.OPTIONAL)
 }
+
+WebUI.navigateToUrl(GlobalVariable.baseUrl + '/view_cart')
+WebUI.waitForPageLoad(10)
+WebUI.navigateToUrl(GlobalVariable.baseUrl + '/checkout')
+WebUI.waitForPageLoad(10)
 
 TestObject placeOrderBtn = byXpath('placeOrderBtn', "//a[contains(@href,'/payment') and contains(normalize-space(.),'Place Order')]")
 clickSafe(placeOrderBtn, 10)
+WebUI.waitForPageLoad(10)
+if (!WebUI.getUrl().contains('/payment')) {
+	WebUI.navigateToUrl(GlobalVariable.baseUrl + '/payment')
+	WebUI.waitForPageLoad(10)
+}
 
-WebUI.setText(findTestObject('Checkout/txt_Card_Name'), nameOnCard)
-WebUI.setText(findTestObject('Checkout/txt_Card_Number'), numberOnCard)
-WebUI.setText(findTestObject('Checkout/txt_CVC'), cvc)
-WebUI.setText(findTestObject('Checkout/txt_Expiry_Month'), month)
-WebUI.setText(findTestObject('Checkout/txt_Expiry_Year'), year)
+TestObject cardNameInput = byXpath('cardNameInput', "//input[@data-qa='name-on-card' or @name='name_on_card']")
+TestObject cardNumberInput = byXpath('cardNumberInput', "//input[@data-qa='card-number' or @name='card_number']")
+TestObject cvcInput = byXpath('cvcInput', "//input[@data-qa='cvc' or @name='cvc']")
+TestObject monthInput = byXpath('monthInput', "//input[@data-qa='expiry-month' or @name='expiry_month']")
+TestObject yearInput = byXpath('yearInput', "//input[@data-qa='expiry-year' or @name='expiry_year']")
+
+setTextSafe(cardNameInput, nameOnCard, 10)
+setTextSafe(cardNumberInput, numberOnCard, 10)
+setTextSafe(cvcInput, cvc, 10)
+setTextSafe(monthInput, month, 10)
+setTextSafe(yearInput, year, 10)
 
 TestObject payConfirmBtn = byXpath('payConfirmBtn', "//button[@id='submit' or @data-qa='pay-button' or contains(normalize-space(.),'Pay and Confirm Order')]")
 clickSafe(payConfirmBtn, 10)

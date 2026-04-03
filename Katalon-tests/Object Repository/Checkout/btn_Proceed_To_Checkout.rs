@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='do_action']/div/div/div/a</value>
+         <value>//a[contains(@href,'/checkout') and contains(normalize-space(.),'Proceed To Checkout')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.btn.btn-default.check_out</value>
+         <value>a[href='/checkout']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
